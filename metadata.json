@@ -1,0 +1,6 @@
+{
+  "name": "SNS炎上回避ゲーム",
+  "description": "小学生・中学生向けにSNSリテラシーや著作権を楽しく学べるクイズゲーム",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
