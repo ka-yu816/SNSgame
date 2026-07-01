@@ -295,7 +295,7 @@ export default function App() {
       </div>
 
       {/* 右側：スマートフォン画面（インナーは明るいSleekテーマ） */}
-      <div id="phone-container" className="w-full max-w-[380px] flex justify-center">
+      <div id="phone-container" className="w-full max-w-[340px] flex justify-center">
         <PhoneFrame>
           <AnimatePresence mode="wait">
             {/* A. 年齢層選択画面（最初に必ず選ぶ） */}

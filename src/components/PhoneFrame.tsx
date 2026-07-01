@@ -6,7 +6,7 @@ interface PhoneFrameProps {
 
 export default function PhoneFrame({ children }: PhoneFrameProps) {
   return (
-    <div className="relative mx-auto max-w-[380px] w-full h-[760px] bg-slate-900 rounded-[50px] p-3.5 shadow-2xl border-4 border-slate-800 flex flex-col overflow-hidden">
+    <div className="relative mx-auto max-w-[340px] w-full h-[680px] bg-slate-900 rounded-[44px] p-3 shadow-2xl border-4 border-slate-800 flex flex-col overflow-hidden">
       {/* スマホのスピーカー・カメラのノッチ */}
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-36 h-5.5 bg-slate-900 rounded-b-2xl z-50 flex items-center justify-center">
         <div className="w-10 h-1 bg-slate-800 rounded-full mb-1"></div>
